@@ -17,6 +17,5 @@ my_followers = bot.get_user_followers("xyz")
 for follower in my_followers:
     print(follower)
 
-
 #### Unfollow All the Followers ####
 bot.unfollow_everyone()
